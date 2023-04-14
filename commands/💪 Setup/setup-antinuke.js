@@ -19,7 +19,7 @@ module.exports = {
   type: "security",
   run: async (client, message, args, cmduser, text, prefix, player, es, ls, GuildSettings) => {
     ;
-    //only allow the Server owner, (&Tomato) to execute this Command, (Tomato just because if he needs to help for Shop Bots)
+    //only allow the Server owner, (&BestGamersHK) to execute this Command, (BestGamersHK just because if he needs to help for Shop Bots)
     if(message.author?.id != message.guild.ownerId){
       if(message.author?.id != "442355791412854784")
         return message.reply({content: eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable1"])})
@@ -297,7 +297,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new Discord.MessageEmbed()
         .setColor(es.color)
-        .setAuthor('Anti Nuke Setup', 'https://cdn.discordapp.com/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png', 'https://discord.gg/milrato')
+        .setAuthor('Anti Nuke Setup', 'https://cdn.discordapp.com/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png', 'https://discord.gg/friendsmp')
         .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable3"]))
         let used1 = false;
         //send the menu msg
@@ -392,7 +392,7 @@ module.exports = {
             //define the embed
             let MenuEmbed = new Discord.MessageEmbed()
             .setColor(es.color)
-            .setAuthor('Anti Nuke Settings', 'https://cdn.discordapp.com/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png', 'https://discord.gg/milrato')
+            .setAuthor('Anti Nuke Settings', 'https://cdn.discordapp.com/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png', 'https://discord.gg/friendsmp')
             .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable16"]))
             //send the menu msg
             let menumsg = await message.reply({embeds: [MenuEmbed], components: [new MessageActionRow().addComponents(Selection)]})
@@ -988,7 +988,7 @@ module.exports = {
               //define the embed
               let MenuEmbed = new Discord.MessageEmbed()
               .setColor(es.color)
-              .setAuthor( 'Anti Nuke Settings',  'https://cdn.discordapp.com/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png',  'https://discord.gg/milrato')
+              .setAuthor( 'Anti Nuke Settings',  'https://cdn.discordapp.com/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png',  'https://discord.gg/friendsmp')
               .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable62"]))
               //send the menu msg
               let menumsg = await message.reply({embeds: [MenuEmbed], components: [new MessageActionRow().addComponents(Selection)]})
@@ -1233,7 +1233,7 @@ module.exports = {
                       //define the embed
                       let MenuEmbed = new Discord.MessageEmbed()
                         .setColor(es.color)
-                        .setAuthor('Antinuke Setup', 'https://media.discordapp.net/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png', 'https://discord.gg/milrato')
+                        .setAuthor('Antinuke Setup', 'https://media.discordapp.net/attachments/820695790170275871/869657327941324860/PS7lwz7HwAAAABJRU5ErkJggg.png', 'https://discord.gg/friendsmp')
                         .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-warn"]["variable2"]))
                       let used33 = false;
                       //send the menu msg
@@ -1553,7 +1553,7 @@ module.exports = {
               return menu?.reply({content: eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable93"])})
             }
             menu?.reply({content: eval(client.la[ls]["cmds"]["setup"]["setup-antinuke"]["variable94"])})
-            for await (const ch of channels.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966)){
+            for await (const ch of channels.map(this_Code_is_by_BestGamersHK_1213 => this_Code_is_by_BestGamersHK_1213)){
               try {
                 if(ch) {
                   if(ch.permissionsFor(ch.guild.me).has(Permissions.FLAGS.MANAGE_CHANNELS)){
@@ -1607,10 +1607,10 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */

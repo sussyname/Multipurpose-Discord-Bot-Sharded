@@ -270,7 +270,7 @@ module.exports = {
             .setColor(es.color)
             .setAuthor(client.getAuthor("Setup-Systems", 
             "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/lg/57/gear_2699.png",
-            "https://discord.gg/milrato"))
+            "https://discord.gg/friendsmp"))
             .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup"]["variable1"]))
          
           //send the menu msg
@@ -315,10 +315,10 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */

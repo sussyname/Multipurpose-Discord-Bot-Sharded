@@ -83,7 +83,7 @@
            .setTitle(eval(client.la[ls]["cmds"]["administration"]["addroletoeveryone"]["variable7"]))
          ]});
        await message.guild.members.fetch().catch(() => null);
-       var members = message.guild.members.cache.filter(member => member.roles.cache.has(rolehas.id) && member.roles.cache.has(role.id)).map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966);
+       var members = message.guild.members.cache.filter(member => member.roles.cache.has(rolehas.id) && member.roles.cache.has(role.id)).map(this_Code_is_by_BestGamersHK_1213 => this_Code_is_by_BestGamersHK_1213);
        if (!members || members.length == 0)
          return message.reply({embeds :[new MessageEmbed()
            .setColor(es.wrongcolor)
@@ -95,7 +95,7 @@
        message.reply({embeds:  [new MessageEmbed()
           .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
          .setFooter(client.getFooter(es))
-         .setAuthor(`Changing roles for ${members.length} Members...`, "https://images-ext-1.discordapp.net/external/ANU162U1fDdmQhim_BcbQ3lf4dLaIQl7p0HcqzD5wJA/https/cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/milrato")
+         .setAuthor(`Changing roles for ${members.length} Members...`, "https://images-ext-1.discordapp.net/external/ANU162U1fDdmQhim_BcbQ3lf4dLaIQl7p0HcqzD5wJA/https/cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/friendsmp")
          .setDescription(eval(client.la[ls]["cmds"]["administration"]["addroletoeveryone"]["variable10"]))
        ]});
        if (GuildSettings && GuildSettings.adminlog && GuildSettings.adminlog != "no") {
@@ -160,10 +160,10 @@
  };
  /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
   * @INFO
-  * Work for Milrato Development | https://milrato.eu
+  * Work for Indocraft Development | https://indocraft.club
   * @INFO
-  * Please mention him / Milrato Development, when using this Code!
+  * Please mention him / Indocraft Development, when using this Code!
   * @INFO
   */

@@ -20,7 +20,7 @@ module.exports = {
     try{
         const oldDate = Date.now();
         let tempmsg = await message.reply({embeds: [new Discord.MessageEmbed().setColor(es.color)
-          .setAuthor(client.getAuthor(client.la[ls].cmds.info.botinfo.loading, "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/milrato"))
+          .setAuthor(client.getAuthor(client.la[ls].cmds.info.botinfo.loading, "https://cdn.discordapp.com/emojis/756773010123522058.gif", "https://discord.gg/friendsmp"))
         ]}).catch(console.error)
         let botPing = Math.round(Date.now() - oldDate) - client.ws.ping;
         if(botPing < 0) botPing *= -1;
@@ -61,7 +61,7 @@ module.exports = {
                 .setColor(es.color).setThumbnail(es.thumb ? es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL() : null)
                 .addField(client.la[ls].cmds.info.botinfo.field1.title, `\`\`\`yml\nServers: ${nFormatter(totalGuilds, 2)}\nUsers: ${nFormatter(totalMembers, 2)}\nConnections: ${connectedchannelsamount}\nClusters: ${client.cluster.count}\nShards: ${client.cluster.info.TOTAL_SHARDS}\`\`\``, true)
                 .addField(client.la[ls].cmds.info.botinfo.field2.title, `\`\`\`yml\nNode.js: ${process.version}\nDiscord.js: v${Discord.version}\nEnmap-DB: v5.8.4\`\`\``, true)
-                .addField(client.la[ls].cmds.info.botinfo.field4.title, `\`\`\`yml\nName: Tomato#6966\nID: [442355791412854784]\`\`\``, true)
+                .addField(client.la[ls].cmds.info.botinfo.field4.title, `\`\`\`yml\nName: BestGamersHK#1213\nID: [442355791412854784]\`\`\``, true)
                 .setFooter(client.getFooter(es.footertext+ ` ︲ You're on Cluster #${client.cluster.id} and Shard #${message.guild.shard.id}`, es.footericon))
                 .addField(
                   `${uptime[index] < 1000 || members[index] < 1 || guilds[index] < 1 ? `<:error:862306766338523166>` : `<:online:862306785007632385>`} Cluster #${cluster[index]}${cluster[index] == client.cluster.id ? ` | **Cluster of __this Guild__**` : ``}`, 
@@ -97,10 +97,10 @@ module.exports = {
 };
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+  * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
   * @INFO
-  * Work for Milrato Development | https://milrato.eu
+  * Work for Indocraft Development | https://indocraft.club
   * @INFO
-  * Please mention him / Milrato Development, when using this Code!
+  * Please mention him / Indocraft Development, when using this Code!
   * @INFO
 */

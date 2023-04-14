@@ -1079,10 +1079,10 @@ module.exports = {
 }
 /**
   * @INFO
-  * Bot Coded by Tomato#6966 | https://github?.com/Tomato6966/Discord-Js-Handler-Template
+  * Bot Coded by BestGamersHK#1213 | https://github?.com/Tomato6966/Discord-Js-Handler-Template
   * @INFO
-  * Work for Milrato Development | https://milrato.eu
+  * Work for Indocraft Development | https://indocraft.club
   * @INFO
-  * Please mention him / Milrato Development, when using this Code!
+  * Please mention him / Indocraft Development, when using this Code!
   * @INFO
 */

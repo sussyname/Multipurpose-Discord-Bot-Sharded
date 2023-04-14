@@ -53,10 +53,10 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://milrato.eue
+ * Bot Coded by BestGamersHK#1213 | https://indocraft.clube
  * @INFO
- * Work for Milrato Development | https://discord.gg/milrato
+ * Work for Indocraft Development | https://discord.gg/friendsmp
  * @INFO
- * Please mention Him / Milrato Development, when using this Code!
+ * Please mention Him / Indocraft Development, when using this Code!
  * @INFO
  */

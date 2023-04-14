@@ -72,7 +72,7 @@ module.exports = {
           .setColor(es.color)
           .setAuthor(client.getAuthor("Auto-Backup System Setup", 
           "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/floppy-disk_1f4be.png",
-          "https://discord.gg/milrato"))
+          "https://discord.gg/friendsmp"))
           .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-anticaps"]["variable1"]))
         //send the menu msg
         let menumsg = await message.reply({embeds: [MenuEmbed], components: [new MessageActionRow().addComponents(Selection)]})
@@ -118,10 +118,10 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */

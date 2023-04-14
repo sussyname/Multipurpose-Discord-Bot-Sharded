@@ -28,8 +28,8 @@ module.exports = {
         embeds: [new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.getFooter(es))
-          .setTitle("Only Tomato is allowed to deploy the SLASH-COMMANDS")
-          .setDescription(`Go to the [Discord-Server](https://discord.gg/milrato), open a Ticket and ask for it!`)
+          .setTitle("Only BestGamersHK is allowed to deploy the SLASH-COMMANDS")
+          .setDescription(`Go to the [Discord-Server](https://discord.gg/friendsmp), open a Ticket and ask for it!`)
         ]
       });
     try {
@@ -71,10 +71,10 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */

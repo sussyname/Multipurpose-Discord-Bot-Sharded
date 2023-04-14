@@ -77,7 +77,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new Discord.MessageEmbed()
           .setColor(es.color)
-          .setAuthor(client.getFooter('Keyword Setup', 'https://images-ext-1.discordapp.net/external/HF-XNy3iUP4D95zv2fuTUy1csYWuNa5IZj2HSCSkvhs/https/emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/flexed-biceps_1f4aa.png', 'https://discord.gg/milrato'))
+          .setAuthor(client.getFooter('Keyword Setup', 'https://images-ext-1.discordapp.net/external/HF-XNy3iUP4D95zv2fuTUy1csYWuNa5IZj2HSCSkvhs/https/emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/flexed-biceps_1f4aa.png', 'https://discord.gg/friendsmp'))
           .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable2"]))
         //send the menu msg
         let menumsg = await message.reply({ embeds: [MenuEmbed], components: [new MessageActionRow().addComponents(Selection)] })
@@ -175,7 +175,7 @@ module.exports = {
                           .then(async collected => {
                             var channel = collected.first().mentions.channels.filter(ch => ch.guild.id == message.guild.id).first();
                             if (channel) {
-                              for (const ch of collected.first().mentions.channels.map(this_Code_is_by_Tomato_6966 => this_Code_is_by_Tomato_6966)) {
+                              for (const ch of collected.first().mentions.channels.map(this_Code_is_by_BestGamersHK_1213 => this_Code_is_by_BestGamersHK_1213)) {
 
                                 thekeyword.channels.push(ch.id)
                               }
@@ -380,7 +380,7 @@ module.exports = {
             //define the embed
             let MenuEmbed = new Discord.MessageEmbed()
               .setColor(es.color)
-              .setAuthor('Custom Command Setup', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/flexed-biceps_1f4aa.png', 'https://discord.gg/milrato')
+              .setAuthor('Custom Command Setup', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/flexed-biceps_1f4aa.png', 'https://discord.gg/friendsmp')
               .setDescription(`**Select all \`Custom Commands\` which should get __deleted__**`)
             //send the menu msg
             let menumsg = await message.reply({ embeds: [MenuEmbed], components: [new MessageActionRow().addComponents(Selection)] })
@@ -458,11 +458,11 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */
 

@@ -283,7 +283,7 @@ but you can also do \`${prefix}setup-SYSTEM\` e.g. \`${prefix}setup-welcome\``)
 ⌚️ **${duration(client.uptime).map(i=> `\`${i}\``).join("︲")} Uptime**
 📶 **\`${Math.floor(client.ws.ping)}ms\` Ping**
 <:online:862306785007632385> **\`${Math.floor(await client.database.ping())}ms\` DB-Ping**
-<:MilratoDevelopment:900389724936609842>  Made by [**Milrato Development**](https://discord.gg/milrato)`)
+<:MilratoDevelopment:900389724936609842>  Made by [**Indocraft Development**](https://discord.gg/friendsmp)`)
 .addField("How to get help?", `>>> **\` 1. Way \`** *Use the Buttons, to swap the Pages*\n**\` 2. Way \`** *Use the Menu to select all Help Pages, you want to display*\n**\` 3. Way \`** *Watch the Youtube Tutorial*`)
 
         let err = false;
@@ -594,10 +594,10 @@ but you can also do \`${prefix}setup-SYSTEM\` e.g. \`${prefix}setup-welcome\``)
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */

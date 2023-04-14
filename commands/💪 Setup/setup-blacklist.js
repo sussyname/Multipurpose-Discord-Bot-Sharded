@@ -84,7 +84,7 @@ module.exports = {
         //define the embed
         let MenuEmbed = new MessageEmbed()
         .setColor(es.color)
-        .setAuthor(client.getAuthor('Setup Blacklist', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/291/stop-sign_1f6d1.png', 'https://discord.gg/milrato'))
+        .setAuthor(client.getAuthor('Setup Blacklist', 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/joypixels/291/stop-sign_1f6d1.png', 'https://discord.gg/friendsmp'))
         .setDescription(eval(client.la[ls]["cmds"]["setup"]["setup-ticket"]["variable2"]))
         let used1 = false;
         //send the menu msg
@@ -412,10 +412,10 @@ module.exports = {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */

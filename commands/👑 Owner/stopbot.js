@@ -28,7 +28,7 @@ module.exports = {
     try {
       let clientapp = client.application ? await client.application.fetch().catch(e=>false) : false;
       let guild = client.guilds.cache.get("773668217163218944")
-      return message.reply({content : `**<:no:833101993668771842> THIS COMMAND IS DISABLED, go to discord.gg/milrato and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
+      return message.reply({content : `**<:no:833101993668771842> THIS COMMAND IS DISABLED, go to discord.gg/friendsmp and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
 \`\`\`yml
 ../..
 \`\`\`
@@ -75,10 +75,10 @@ ${clientapp.description ? clientapp.description : "❌ NO DESCRIPTION YET!"}
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention him / Milrato Development, when using this Code!
+ * Please mention him / Indocraft Development, when using this Code!
  * @INFO
  */
