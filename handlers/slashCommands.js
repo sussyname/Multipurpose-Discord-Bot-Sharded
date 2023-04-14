@@ -157,10 +157,10 @@ module.exports = (client) => {
 };
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by BestGamersHK#1213 | https://discord.gg/friendsmp
  * @INFO
- * Work for Milrato Development | https://milrato.eu
+ * Work for Indocraft Development | https://indocraft.club
  * @INFO
- * Please mention Him / Milrato Development, when using this Code!
+ * Please mention Him / Indocraft Development, when using this Code!
  * @INFO
  */

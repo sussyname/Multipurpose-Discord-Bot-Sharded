@@ -1,8 +1,8 @@
 # Public Bot and Support Server!
 
-<a href="https://discord.gg/dcdev"><img src="https://discord.com/api/guilds/773668217163218944/widget.png?style=banner2"></a>
+<a href="https://discord.gg/friendsmp"><img src="https://discord.com/api/guilds/773668217163218944/widget.png?style=banner2"></a>
  
-[**Invite the Public Version of this Bot**](https://milrato.milrato.dev) So you don't need to host it by yourself or [join my discord Server](https://discord.gg/dcdev) to get a custom hosted Bot for you!
+[**Invite the Public Version of this Bot**](https://milrato.milrato.dev) So you don't need to host it by yourself or [join my discord Server](https://discord.gg/friendsmp) to get a custom hosted Bot for you!
 
 
 # Important notes and thank ❤️
@@ -33,7 +33,7 @@ If you want you can add a DASHBOARD too, an example how to start it, is listed i
 <details>
   <summary>Click to expand</summary>
 
-  **NOTE:** It is suggested to use the [Sharded (&Clustered) version](https://github.com/Tomato6966/Multipurpose-discord-bot/tree/sharded_with_mongo), if u plan on using it for a VERIFIED BOT (on more then 2000 Servers!)
+  **NOTE:** It is suggested to use the [Sharded (&Clustered) version](https://github.com/BestGamersH/Multipurpose-discord-bot-sharded), if u plan on using it for a VERIFIED BOT (on more then 2000 Servers!)
  
   1. Download the [Source Code](https://github.com/BestGamersH/Multipurpose-discord-bot-sharded/releases/latest)
      * either by: `git clone https://github.com/BestGamersH/Multipurpose-discord-bot-sharded`

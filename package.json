@@ -1,7 +1,7 @@
 {
   "name": "clan_bot",
   "version": "11.0.0",
-  "description": "A Discord Bot made by: Tomato#6966",
+  "description": "A Discord Bot made by: BestGamersHK#1213",
   "main": "index.js",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
@@ -63,11 +63,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Tomato#6966",
+  "author": "BestGamersHK#1213",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomato6966/Multipurpose-discord-bot.git"
+    "url": "git+https://github.com/BestGamersH/Multipurpose-discord-bot.git"
   },
   "keywords": [
     "lavalink",
@@ -90,7 +90,7 @@
     "reactions"
   ],
   "bugs": {
-    "url": "https://github.com/Tomato6966/Multipurpose-discord-bot/issues"
+    "url": "https://github.com/BestGamersH/Multipurpose-discord-bot/issues"
   },
   "homepage": "https://milrato.dev"
 }
